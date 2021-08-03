@@ -1,0 +1,142 @@
+/*.................................
+ Top Banner style .................... */
+.container {
+  background-color: rgb(40, 7, 189);
+  height: 800px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+span a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 32px;
+}
+button {
+  width: 150px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  margin-right: 40px;
+  margin-top: 40px;
+  padding: 10px 10px 15px 10px;
+}
+.fa-sign-in-alt {
+  color: #ffffff;
+  padding-right: 20px;
+}
+.watch-live {
+  border: 2px solid violet;
+  border-radius: 10px;
+}
+.fa-arrow-right {
+  color: #ffffff;
+  padding-left: 10px;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  font-weight: 700px;
+  width: 50%;
+  color: #ffffff;
+}
+
+.flexible-container {
+  display: flex;
+  margin-left: 500px;
+
+  justify-content: space-between;
+}
+.box img {
+  width: 556px;
+  height: 438px;
+  margin-right: 350px;
+  padding-top: 10%;
+  transition: width 1s, height 1s, transform 1s;
+}
+.box:hover {
+  width: 650px;
+  height: 600px;
+  transform: rotate(45deg);
+}
+
+/* Players gallery styles  */
+
+.player {
+  border: 2px solid gray;
+  width: 330px;
+  height: 475;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  box-shadow: 10px 10px 10px gray;
+}
+.player h2 {
+  font-size: 28px;
+}
+.player p {
+  font-size: 16px;
+}
+
+.player img {
+  width: 300px;
+  height: 256px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 330px 330px 330px 330px;
+  grid-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* highlights section styles ........
+  .......................... */
+.media-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+#media-highlights {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 700px;
+  width: 75%;
+  color: black;
+}
+.half-width {
+  width: 570px;
+  height: 350px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+}
+.highlights {
+  background-color: gray;
+  margin-top: 60px;
+}
+
+/* Footer section styles ....
+  .................... */
+.fireball img {
+  width: 462px;
+  height: 110px;
+  margin-top: 80px;
+}
+.icon img {
+  width: 32px;
+  height: 32px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.footer-container {
+  text-align: center;
+  margin-top: 80px;
+}
